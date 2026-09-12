@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base Axios instance pointing directly to our running Node backend
 const API = axios.create({
-  baseURL: "https://onrender.com",
+  baseURL: "https://trello-clone-fullstack.onrender.com/api",
 });
 
 // Front-to-back communication hooks matching our Express controllers
