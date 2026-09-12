@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Block node_modules inside backend and frontend folders
+**/node_modules/
+
+# Block all environment files containing database/API keys
+.env
+.env.local
+.env.*.local
