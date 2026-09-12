@@ -1,0 +1,18 @@
+/* Custom Portfolio Scrollbar Styles for the Card Container Columns */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #475569; /* Slate-600 thumb */
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #64748b; /* Slate-500 thumb on hover */
+}
