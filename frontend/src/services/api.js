@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base Axios instance pointing directly to our running Node backend
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: "https://onrender.com",
 });
 
 // Front-to-back communication hooks matching our Express controllers
